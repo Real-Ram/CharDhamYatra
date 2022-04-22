@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1074806611133",
+    "project_id": "char-dham-yatra-8a088",
+    "storage_bucket": "char-dham-yatra-8a088.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1074806611133:android:23acca7e06afe35da56bd4",
+        "android_client_info": {
+          "package_name": "com.example.chardhamyatra"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1074806611133-vnlc1dkm2pd1l43mhvj9f8cad17up8rk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_jzwUbTXehDYp12BUay5BgoFtUMgyWss"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1074806611133-vnlc1dkm2pd1l43mhvj9f8cad17up8rk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
