@@ -3,13 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/cursor_color.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/half_blue_roundshape.xml" value="0.1975" />
+        <entry key="app/src/main/res/drawable/half_circle.xml" value="0.1975" />
         <entry key="app/src/main/res/drawable/shape_button01.xml" value="0.1795" />
         <entry key="app/src/main/res/drawable/shape_button02.xml" value="0.1795" />
+        <entry key="app/src/main/res/drawable/small_circle.xml" value="0.1975" />
         <entry key="app/src/main/res/layout/activity_cities.xml" value="0.2953125" />
         <entry key="app/src/main/res/layout/activity_forget_password.xml" value="0.2953125" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.2953125" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.29583333333333334" />
         <entry key="app/src/main/res/layout/activity_register.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/activity_splash.xml" value="0.2953125" />
       </map>
     </option>
   </component>

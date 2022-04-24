@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="#de5637"
     android:layout_height="match_parent"
     tools:context=".CitiesActivity">
 
@@ -11,137 +12,147 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:gravity="top"
+        android:layout_marginTop="10dp"
         android:fontFamily="@font/poppins_regular"
         android:text="@string/name1"
         android:id="@+id/id1"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="36sp" />
 
-    <RelativeLayout
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/id2"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:paddingTop="20dp"
+        android:layout_height="242dp"
+        android:layout_below="@+id/id1"
+        android:layout_centerInParent="true"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="new-yoga.json"
+        app:lottie_loop="true" />
 
-        //Char Dham --> 1
-        <androidx.cardview.widget.CardView
-            android:id="@+id/city1"
-            android:layout_width="match_parent"
+    //Char Dham --> 1
+    <androidx.cardview.widget.CardView
+        android:id="@+id/city1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id2"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        app:cardMaxElevation="12dp"
+        app:cardPreventCornerOverlap="false"
+        app:cardUseCompatPadding="false">
+
+        <TextView
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="200dp"
-            android:layout_marginStart="20dp"
-            android:layout_marginEnd="20dp"
-            android:layout_marginBottom="10dp"
-            app:cardBackgroundColor="@color/white"
-            app:cardCornerRadius="20dp"
-            app:cardElevation="10dp"
-            app:cardMaxElevation="12dp"
-            app:cardPreventCornerOverlap="false"
-            app:cardUseCompatPadding="false">
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Kedarnath"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="bottom|center_horizontal"
-                android:layout_marginTop="20dp"
-                android:layout_marginBottom="20dp"
-                android:fontFamily="@font/poppins_medium"
-                android:text="Kedarnath"
-                android:textColor="@color/black"
-                android:textSize="24sp"
-                android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
 
-        </androidx.cardview.widget.CardView>
+    //Char Dham --> 2
+    <androidx.cardview.widget.CardView
+        android:id="@+id/city2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/city1"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        app:cardMaxElevation="12dp"
+        app:cardPreventCornerOverlap="false"
+        app:cardUseCompatPadding="false">
 
-        //Char Dham --> 2
-        <androidx.cardview.widget.CardView
-            android:id="@+id/city2"
-            android:layout_width="match_parent"
+        <TextView
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/city1"
-            android:layout_centerInParent="true"
-            android:layout_marginStart="20dp"
-            android:layout_marginEnd="20dp"
-            android:layout_marginBottom="10dp"
-            app:cardBackgroundColor="@color/white"
-            app:cardCornerRadius="20dp"
-            app:cardElevation="10dp"
-            app:cardMaxElevation="12dp"
-            app:cardPreventCornerOverlap="false"
-            app:cardUseCompatPadding="false">
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Badrinath"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="bottom|center_horizontal"
-                android:layout_marginTop="20dp"
-                android:layout_marginBottom="20dp"
-                android:fontFamily="@font/poppins_medium"
-                android:text="Badrinath"
-                android:textColor="@color/black"
-                android:textSize="24sp"
-                android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
 
-        </androidx.cardview.widget.CardView>
+    //Char Dham --> 3
+    <androidx.cardview.widget.CardView
+        android:id="@+id/city3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/city2"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        app:cardMaxElevation="12dp"
+        app:cardPreventCornerOverlap="false"
+        app:cardUseCompatPadding="false">
 
-        //Char Dham --> 3
-        <androidx.cardview.widget.CardView
-            android:id="@+id/city3"
-            android:layout_width="match_parent"
+        <TextView
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/city2"
-            android:layout_centerInParent="true"
-            android:layout_marginStart="20dp"
-            android:layout_marginEnd="20dp"
-            android:layout_marginBottom="10dp"
-            app:cardBackgroundColor="@color/white"
-            app:cardCornerRadius="20dp"
-            app:cardElevation="10dp"
-            app:cardMaxElevation="12dp"
-            app:cardPreventCornerOverlap="false"
-            app:cardUseCompatPadding="false">
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Yamunotri"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="bottom|center_horizontal"
-                android:layout_marginTop="20dp"
-                android:layout_marginBottom="20dp"
-                android:fontFamily="@font/poppins_medium"
-                android:text="Yamunotri"
-                android:textColor="@color/black"
-                android:textSize="24sp"
-                android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
 
-        </androidx.cardview.widget.CardView>
+    //Char Dham --> 4
+    <androidx.cardview.widget.CardView
+        android:id="@+id/city4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/city3"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        app:cardMaxElevation="12dp"
+        app:cardPreventCornerOverlap="false"
+        app:cardUseCompatPadding="false">
 
-        //Char Dham --> 4
-        <androidx.cardview.widget.CardView
-            android:id="@+id/city4"
-            android:layout_width="match_parent"
+        <TextView
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/city3"
-            android:layout_centerInParent="true"
-            android:layout_marginStart="20dp"
-            android:layout_marginEnd="20dp"
-            app:cardBackgroundColor="@color/white"
-            app:cardCornerRadius="20dp"
-            app:cardElevation="10dp"
-            app:cardMaxElevation="12dp"
-            app:cardPreventCornerOverlap="false"
-            app:cardUseCompatPadding="false">
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Gangotri"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="bottom|center_horizontal"
-                android:layout_marginTop="20dp"
-                android:layout_marginBottom="20dp"
-                android:fontFamily="@font/poppins_medium"
-                android:text="Gangotri"
-                android:textColor="@color/black"
-                android:textSize="24sp"
-                android:textStyle="bold" />
-
-        </androidx.cardview.widget.CardView>
-    </RelativeLayout>
+    </androidx.cardview.widget.CardView>
 
 </RelativeLayout>
