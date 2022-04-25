@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#de5637"
+    android:background="#f40b5a"
     tools:context=".RegisterActivity">
 
     <LinearLayout
@@ -219,6 +219,12 @@
 
                     </com.google.android.material.textfield.TextInputLayout>
 
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="5dp"
+                        android:background="#9e9e9e" />
+
                     <TextView
                         style="@style/TetxtsizeforForm1"
                         android:layout_width="wrap_content"
@@ -227,34 +233,32 @@
                         android:fontFamily="@font/poppins_regular"
                         android:text="Confirm Password"/>
 
-                    <RelativeLayout
+                    <com.google.android.material.textfield.TextInputLayout
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal">
+                        android:layout_height="36dp"
+                        app:passwordToggleEnabled="true"
+                        app:passwordToggleTint="@color/black">
 
-                        <com.google.android.material.textfield.TextInputLayout
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/cpasswordEt"
+                            style="@style/TetxtsizeforForm2"
                             android:layout_width="match_parent"
-                            android:layout_height="36dp"
-                            app:passwordToggleEnabled="true"
-                            app:passwordToggleTint="@color/black">
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/transparent"
+                            android:drawableStart="@drawable/ic_lock"
+                            android:inputType="textPassword"
+                            android:paddingTop="5dp"
+                            android:paddingBottom="8dp"
+                            android:drawablePadding="10dp"
+                            android:textCursorDrawable="@drawable/cursor_color"
+                            android:textColor="@color/black" />
+                    </com.google.android.material.textfield.TextInputLayout>
 
-                            <com.google.android.material.textfield.TextInputEditText
-                                android:id="@+id/cpasswordEt"
-                                style="@style/TetxtsizeforForm2"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:background="@android:color/transparent"
-                                android:drawableStart="@drawable/ic_lock"
-                                android:inputType="textPassword"
-                                android:paddingTop="5dp"
-                                android:paddingBottom="8dp"
-                                android:drawablePadding="10dp"
-                                android:textCursorDrawable="@drawable/cursor_color"
-                                android:textColor="@color/black" />
-
-                        </com.google.android.material.textfield.TextInputLayout>
-
-                    </RelativeLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="5dp"
+                        android:background="#9e9e9e" />
 
                 </LinearLayout>
             </LinearLayout>

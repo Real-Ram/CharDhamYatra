@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
         <activity
+            android:name=".GangotriActivity"
+            android:exported="false" />
+        <activity
+            android:name=".YamunotriActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BadrinathActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KedarnathActivity"
+            android:exported="false" />
+        <activity
             android:name=".CitiesActivity"
             android:exported="false" />
         <activity

@@ -13,5 +13,7 @@
     <color name="hint_white">#808080</color>
 
     <color name="saffron">#FFFFFFFF</color>
+    <color name="saffron_org">#de3657</color>
+
 
 </resources>
