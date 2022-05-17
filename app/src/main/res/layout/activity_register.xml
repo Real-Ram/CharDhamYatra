@@ -211,7 +211,7 @@
                             android:background="@android:color/transparent"
                             android:drawableStart="@drawable/ic_lock"
                             android:inputType="textPassword"
-                            android:paddingTop="5dp"
+                            android:paddingTop="4dp"
                             android:paddingBottom="8dp"
                             android:drawablePadding="10dp"
                             android:textCursorDrawable="@drawable/cursor_color"
@@ -247,7 +247,7 @@
                             android:background="@android:color/transparent"
                             android:drawableStart="@drawable/ic_lock"
                             android:inputType="textPassword"
-                            android:paddingTop="5dp"
+                            android:paddingTop="4dp"
                             android:paddingBottom="8dp"
                             android:drawablePadding="10dp"
                             android:textCursorDrawable="@drawable/cursor_color"
@@ -307,7 +307,7 @@
                 android:fontFamily="@font/poppins_regular"
                 android:gravity="center_horizontal"
                 android:text="Old User?"
-                android:textColor="@color/hint_white"
+                android:textColor="#CCF3EE"
                 android:textSize="13.3sp" />
             <TextView
                 android:layout_width="wrap_content"

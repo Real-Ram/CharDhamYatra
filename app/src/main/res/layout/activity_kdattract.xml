@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f40b5a"
+    tools:context=".KDAttractActivity">
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/TetxtsizeforTitle1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="22dp"
+                android:fontFamily="@font/poppins_semibold"
+                android:gravity="center_horizontal"
+                android:text="Attractions"
+                android:textAllCaps="true"
+                android:textColor="@color/white" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="right|bottom"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="7.3dp"
+                    android:background="@drawable/small_circle" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:id="@+id/half_circle"
+                    android:layout_width="50dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/half_circle" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/rectangle"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginTop="20.3dp"
+                        android:layout_marginRight="6dp"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:layout_gravity="center"
+                        android:text="Sonprayag"
+                        android:textAllCaps="true"
+                        android:textColor="@color/black"
+                        android:textSize="16.7sp" />
+
+                    <ImageView
+                        android:layout_width="250dp"
+                        android:layout_height="200dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/sonprayag" />
+
+                    <TextView
+                        style="@style/TetxtsizeforForm1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="6dp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="@string/sonprayag" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/rectangle"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginTop="20.3dp"
+                        android:layout_marginRight="6dp"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:layout_gravity="center"
+                        android:text="Chorbari Bamak Glacier"
+                        android:textAllCaps="true"
+                        android:textColor="@color/black"
+                        android:textSize="16.7sp" />
+
+                    <ImageView
+                        android:layout_width="250dp"
+                        android:layout_height="200dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/chorbari_bamak_glacier" />
+
+                    <TextView
+                        style="@style/TetxtsizeforForm1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="6dp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="@string/chorbari" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/rectangle"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginTop="20.3dp"
+                        android:layout_marginRight="6dp"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:layout_gravity="center"
+                        android:text="Mount Kedarnath"
+                        android:textAllCaps="true"
+                        android:textColor="@color/black"
+                        android:textSize="16.7sp" />
+
+                    <ImageView
+                        android:layout_width="250dp"
+                        android:layout_height="200dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/mount_kedarnath" />
+
+                    <TextView
+                        style="@style/TetxtsizeforForm1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="6dp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="@string/mount_kedarnath" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/rectangle"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginTop="20.3dp"
+                        android:layout_marginRight="6dp"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:layout_gravity="center"
+                        android:text="Kedar Dome"
+                        android:textAllCaps="true"
+                        android:textColor="@color/black"
+                        android:textSize="16.7sp" />
+
+                    <ImageView
+                        android:layout_width="250dp"
+                        android:layout_height="200dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/kedar_dome" />
+
+                    <TextView
+                        style="@style/TetxtsizeforForm1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="6dp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="@string/kedar_dome" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/rectangle"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginTop="20.3dp"
+                        android:layout_marginRight="6dp"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:layout_gravity="center"
+                        android:text="Kedar Wildlife Sanctuary"
+                        android:textAllCaps="true"
+                        android:textColor="@color/black"
+                        android:textSize="16.7sp" />
+
+                    <ImageView
+                        android:layout_width="250dp"
+                        android:layout_height="200dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/kedarnath_wildlife_sanctuary" />
+
+                    <TextView
+                        style="@style/TetxtsizeforForm1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="6dp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="@string/kedar_wildlife" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/rectangle"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginTop="20.3dp"
+                        android:layout_marginRight="6dp"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:layout_gravity="center"
+                        android:text="Adi Shankaracharya Samadhi"
+                        android:textAllCaps="true"
+                        android:textColor="@color/black"
+                        android:textSize="16.7sp" />
+
+                    <ImageView
+                        android:layout_width="250dp"
+                        android:layout_height="200dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/adi_shankaracharya_samadhi" />
+
+                    <TextView
+                        style="@style/TetxtsizeforForm1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="6dp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="@string/adi_shankaracharya" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/rectangle"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginTop="20.3dp"
+                        android:layout_marginRight="6dp"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:layout_gravity="center"
+                        android:text="Sumeru Parvat"
+                        android:textAllCaps="true"
+                        android:textColor="@color/black"
+                        android:textSize="16.7sp" />
+
+                    <ImageView
+                        android:layout_width="250dp"
+                        android:layout_height="200dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/sumeru_parvat" />
+
+                    <TextView
+                        style="@style/TetxtsizeforForm1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="6dp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="@string/sumeru" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/rectangle"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginTop="20.3dp"
+                        android:layout_marginRight="6dp"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:layout_gravity="center"
+                        android:text="Mayali Pass"
+                        android:textAllCaps="true"
+                        android:textColor="@color/black"
+                        android:textSize="16.7sp" />
+
+                    <ImageView
+                        android:layout_width="250dp"
+                        android:layout_height="200dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/mayali_pass" />
+
+                    <TextView
+                        style="@style/TetxtsizeforForm1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="6dp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="@string/mayali_pass" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/rectangle"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginTop="20.3dp"
+                        android:layout_marginRight="6dp"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:layout_gravity="center"
+                        android:text="Vasuki Tal"
+                        android:textAllCaps="true"
+                        android:textColor="@color/black"
+                        android:textSize="16.7sp" />
+
+                    <ImageView
+                        android:layout_width="250dp"
+                        android:layout_height="200dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/vasuki" />
+
+                    <TextView
+                        style="@style/TetxtsizeforForm1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="6dp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="@string/vasuki" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/rectangle"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginTop="20.3dp"
+                        android:layout_marginRight="6dp"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:layout_gravity="center"
+                        android:text="Gandhi Sarovar"
+                        android:textAllCaps="true"
+                        android:textColor="@color/black"
+                        android:textSize="16.7sp" />
+
+                    <ImageView
+                        android:layout_width="250dp"
+                        android:layout_height="200dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/gandhi_sarovar" />
+
+                    <TextView
+                        style="@style/TetxtsizeforForm1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="6dp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="@string/gandhi_sarovar" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/rectangle"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginTop="20.3dp"
+                        android:layout_marginRight="6dp"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:layout_gravity="center"
+                        android:text="Gaurikund"
+                        android:textAllCaps="true"
+                        android:textColor="@color/black"
+                        android:textSize="16.7sp" />
+
+                    <ImageView
+                        android:layout_width="250dp"
+                        android:layout_height="200dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/gaurikund" />
+
+                    <TextView
+                        style="@style/TetxtsizeforForm1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="6dp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="@string/gaurikund" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+
+</RelativeLayout>

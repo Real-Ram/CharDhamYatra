@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
         <activity
+            android:name=".KDAttractActivity"
+            android:exported="false" />
+        <activity
             android:name=".GangotriActivity"
             android:exported="false" />
         <activity

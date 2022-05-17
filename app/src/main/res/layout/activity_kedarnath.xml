@@ -92,6 +92,7 @@
                         android:fontFamily="@font/poppins_semibold"
                         android:gravity="center_horizontal"
                         android:text="What to know"
+                        android:textAllCaps="true"
                         android:layout_marginLeft="6dp"
                         android:layout_marginRight="6dp"
                         android:textColor="@color/black"
@@ -99,15 +100,117 @@
 
                     <TextView
                         style="@style/TetxtsizeforForm1"
+                        android:id="@+id/info12"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_marginTop="4dp"
                         android:layout_marginLeft="6dp"
                         android:layout_marginRight="6dp"
                         android:fontFamily="@font/poppins_regular"
-                        android:text="@string/kedarnath_info" />
+                        android:text="Text from the database...." />
 
                 </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rectangle"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20.3dp"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:gravity="center_horizontal"
+                        android:text="Popular Routes"
+                        android:textAllCaps="true"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginRight="6dp"
+                        android:textColor="@color/black"
+                        android:textSize="16.7sp" />
+
+                    <TextView
+                        style="@style/TetxtsizeforForm1"
+                        android:id="@+id/routes12"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginRight="6dp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="Text from the database...." />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rectangle"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20.3dp"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:gravity="center_horizontal"
+                        android:text="Best Time to Visit"
+                        android:textAllCaps="true"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginRight="6dp"
+                        android:textColor="@color/black"
+                        android:textSize="16.7sp" />
+
+                    <TextView
+                        style="@style/TetxtsizeforForm1"
+                        android:id="@+id/besttime12"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginRight="6dp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="Text from the database...." />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rectangle"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20.3dp"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:gravity="center_horizontal"
+                        android:text="Attractions"
+                        android:textAllCaps="true"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginRight="6dp"
+                        android:textColor="@color/black"
+                        android:textSize="16.7sp" />
+
+                    <TextView
+                        style="@style/TetxtsizeforForm1"
+                        android:id="@+id/attract12"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginRight="6dp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="Click here to go attractions page >>" />
+
+                </LinearLayout>
+
+
             </LinearLayout>
 
         </ScrollView>

@@ -158,7 +158,7 @@
                                 android:drawablePadding="10dp"
                                 android:ems="15"
                                 android:inputType="textPassword"
-                                android:paddingTop="10dp"
+                                android:paddingTop="4dp"
                                 android:paddingBottom="8dp"
                                 android:textColor="@color/black"
                                 android:textCursorDrawable="@drawable/cursor_color" />
@@ -232,7 +232,7 @@
                 android:fontFamily="@font/poppins_regular"
                 android:gravity="center_horizontal"
                 android:text="New User?"
-                android:textColor="@color/hint_white"
+                android:textColor="#CCF3EE"
                 android:textSize="13.3sp" />
             <TextView
                 android:layout_width="wrap_content"
