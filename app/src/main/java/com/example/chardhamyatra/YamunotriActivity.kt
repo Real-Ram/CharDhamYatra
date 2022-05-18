@@ -1,5 +1,6 @@
 package com.example.chardhamyatra
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.chardhamyatra.databinding.ActivityYamunotriBinding
@@ -21,6 +22,10 @@ class YamunotriActivity : AppCompatActivity() {
 
         firebaseAuth = FirebaseAuth.getInstance()
         loadTheData()
+
+        binding.attract12.setOnClickListener {
+            startActivity(Intent(this, YMAttractActivity::class.java))
+        }
     }
 
     private fun loadTheData() {

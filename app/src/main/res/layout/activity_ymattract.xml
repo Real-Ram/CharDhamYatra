@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f40b5a"
+    tools:context=".YMAttractActivity">
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/TetxtsizeforTitle1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="22dp"
+                android:fontFamily="@font/poppins_semibold"
+                android:gravity="center_horizontal"
+                android:text="Attractions"
+                android:textAllCaps="true"
+                android:textColor="@color/white" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="right|bottom"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="7.3dp"
+                    android:background="@drawable/small_circle" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:id="@+id/half_circle"
+                    android:layout_width="50dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/half_circle" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/rectangle"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginTop="20.3dp"
+                        android:layout_marginRight="6dp"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:layout_gravity="center"
+                        android:text="Kharsali"
+                        android:textAllCaps="true"
+                        android:textColor="@color/black"
+                        android:textSize="16.7sp" />
+
+                    <ImageView
+                        android:layout_width="250dp"
+                        android:layout_height="200dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/kharsali" />
+
+                    <TextView
+                        style="@style/TetxtsizeforForm1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="6dp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="@string/kharsali" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/rectangle"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginTop="20.3dp"
+                        android:layout_marginRight="6dp"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:layout_gravity="center"
+                        android:text="Saptarshi Kund"
+                        android:textAllCaps="true"
+                        android:textColor="@color/black"
+                        android:textSize="16.7sp" />
+
+                    <ImageView
+                        android:layout_width="250dp"
+                        android:layout_height="200dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/saptarshi_kund" />
+
+                    <TextView
+                        style="@style/TetxtsizeforForm1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="6dp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="@string/saptarshi_kund" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/rectangle"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginTop="20.3dp"
+                        android:layout_marginRight="6dp"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:layout_gravity="center"
+                        android:text="Hanuman Chatti"
+                        android:textAllCaps="true"
+                        android:textColor="@color/black"
+                        android:textSize="16.7sp" />
+
+                    <ImageView
+                        android:layout_width="250dp"
+                        android:layout_height="200dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/hanuman_chatti" />
+
+                    <TextView
+                        style="@style/TetxtsizeforForm1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="6dp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="@string/hanuman_chatti" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/rectangle"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginTop="20.3dp"
+                        android:layout_marginRight="6dp"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:layout_gravity="center"
+                        android:text="Janki Chatti"
+                        android:textAllCaps="true"
+                        android:textColor="@color/black"
+                        android:textSize="16.7sp" />
+
+                    <ImageView
+                        android:layout_width="250dp"
+                        android:layout_height="200dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/janki_chatti" />
+
+                    <TextView
+                        style="@style/TetxtsizeforForm1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="6dp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="@string/janki_chatti" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/rectangle"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginTop="20.3dp"
+                        android:layout_marginRight="6dp"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:layout_gravity="center"
+                        android:text="Yamunotri Temple"
+                        android:textAllCaps="true"
+                        android:textColor="@color/black"
+                        android:textSize="16.7sp" />
+
+                    <ImageView
+                        android:layout_width="250dp"
+                        android:layout_height="200dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/yamunotri_temple" />
+
+                    <TextView
+                        style="@style/TetxtsizeforForm1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="6dp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="@string/yamunotri_temple" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,5 +1,6 @@
 package com.example.chardhamyatra
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.chardhamyatra.databinding.ActivityBadrinathBinding
@@ -21,6 +22,10 @@ class BadrinathActivity : AppCompatActivity() {
 
         firebaseAuth = FirebaseAuth.getInstance()
         loadTheData()
+
+        binding.attract12.setOnClickListener {
+            startActivity(Intent(this, BDAttractActivity::class.java))
+        }
     }
 
     private fun loadTheData() {

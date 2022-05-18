@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
         <activity
+            android:name=".GGAttractActivity"
+            android:exported="false" />
+        <activity
+            android:name=".YMAttractActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BDAttractActivity"
+            android:exported="false" />
+        <activity
             android:name=".KDAttractActivity"
             android:exported="false" />
         <activity

@@ -1,5 +1,6 @@
 package com.example.chardhamyatra
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.chardhamyatra.databinding.ActivityGangotriBinding
@@ -22,6 +23,10 @@ class GangotriActivity : AppCompatActivity() {
 
         firebaseAuth = FirebaseAuth.getInstance()
         loadTheData()
+
+        binding.attract12.setOnClickListener {
+            startActivity(Intent(this, GGAttractActivity::class.java))
+        }
     }
 
     private fun loadTheData() {

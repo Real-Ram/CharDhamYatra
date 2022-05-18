@@ -77,69 +77,82 @@
             </LinearLayout>
 
             <LinearLayout
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/ll12"
+                android:id="@+id/ll3"
+                android:layout_centerHorizontal="true"
                 android:layout_marginTop="20dp"
-                android:gravity="center"
-                android:orientation="vertical">
+                android:orientation="horizontal">
 
-                <TextView
+                <Button
                     android:id="@+id/city1"
-                    android:layout_width="240dp"
+                    android:layout_width="140dp"
                     android:layout_height="64dp"
                     android:background="@drawable/rectangle"
                     android:fontFamily="@font/poppins_medium"
                     android:gravity="center"
+                    android:layout_gravity="left"
                     android:text="Kedarnath"
                     android:backgroundTint="#fcc757"
                     android:textColor="@color/black"
                     android:textSize="20sp"
+                    android:layout_weight="1"
                     android:textStyle="bold" />
 
-                <TextView
+                <Button
                     android:id="@+id/city2"
-                    android:layout_width="240dp"
+                    android:layout_width="140dp"
                     android:layout_height="64dp"
-                    android:layout_marginTop="10dp"
                     android:background="@drawable/rectangle"
                     android:fontFamily="@font/poppins_medium"
                     android:gravity="center"
+                    android:layout_marginLeft="20dp"
                     android:text="Badrinath"
                     android:backgroundTint="#fcc757"
                     android:textColor="@color/black"
                     android:textSize="20sp"
                     android:textStyle="bold" />
+            </LinearLayout>
 
-                <TextView
+            <LinearLayout
+                android:id="@+id/ll4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ll3"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_centerHorizontal="true"
+                android:orientation="horizontal">
+
+                <Button
                     android:id="@+id/city3"
-                    android:layout_width="240dp"
+                    android:layout_width="140dp"
                     android:layout_height="64dp"
-                    android:layout_marginTop="10dp"
                     android:background="@drawable/rectangle"
+                    android:backgroundTint="#fcc757"
                     android:fontFamily="@font/poppins_medium"
                     android:gravity="center"
                     android:text="Yamunotri"
-                    android:backgroundTint="#fcc757"
+                    android:layout_weight="1"
                     android:textColor="@color/black"
                     android:textSize="20sp"
                     android:textStyle="bold" />
 
-                <TextView
+                <Button
                     android:id="@+id/city4"
-                    android:layout_width="240dp"
+                    android:layout_width="140dp"
                     android:layout_height="64dp"
-                    android:layout_marginTop="10dp"
                     android:background="@drawable/rectangle"
+                    android:backgroundTint="#fcc757"
                     android:fontFamily="@font/poppins_medium"
                     android:gravity="center"
+                    android:layout_marginLeft="20dp"
                     android:text="Gangotri"
-                    android:backgroundTint="#fcc757"
+                    android:layout_weight="1"
                     android:textColor="@color/black"
                     android:textSize="20sp"
-                    android:layout_marginBottom="10dp"
                     android:textStyle="bold" />
-
 
             </LinearLayout>
 
