@@ -182,8 +182,6 @@
                     android:layout_height="wrap_content"
                     android:background="@drawable/rectangle"
                     android:layout_marginTop="20dp"
-                    android:id="@+id/attract12"
-                    android:backgroundTint="#fcc757"
                     android:layout_marginBottom="20dp"
                     android:orientation="vertical">
 
@@ -195,7 +193,6 @@
                         android:gravity="center_horizontal"
                         android:text="Attractions"
                         android:textAllCaps="true"
-                        android:layout_gravity="center"
                         android:layout_marginLeft="6dp"
                         android:layout_marginRight="6dp"
                         android:textColor="@color/black"
@@ -203,10 +200,10 @@
 
                     <TextView
                         style="@style/TetxtsizeforForm1"
+                        android:id="@+id/attract12"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_marginTop="4dp"
-                        android:gravity="center"
                         android:layout_marginLeft="6dp"
                         android:layout_marginRight="6dp"
                         android:fontFamily="@font/poppins_regular"
