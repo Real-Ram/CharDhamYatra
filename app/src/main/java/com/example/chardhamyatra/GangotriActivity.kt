@@ -27,6 +27,10 @@ class GangotriActivity : AppCompatActivity() {
         binding.attract12.setOnClickListener {
             startActivity(Intent(this, GGAttractActivity::class.java))
         }
+
+        binding.travel12.setOnClickListener {
+            startActivity(Intent(this, GgTravelActivity::class.java))
+        }
     }
 
     private fun loadTheData() {

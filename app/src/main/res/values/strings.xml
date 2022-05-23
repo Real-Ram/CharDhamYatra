@@ -41,4 +41,24 @@
     <string name="pandava_gufa">This small cave around 1.5 km away from Gangotri temple is a popular halt for devotees. Legends say the Pandava princes of the epic Mahabharata stayed in this cave, hence its name. A walk of around 2 hours through a pristine forest leads you to this cave, where a sage resides. It is also popular as celebrated yoga Baba Ramdev is said to have spent some of his formative years here.</string>
     <string name="gangotri_temple">The serene white temple stands silhouetted against mighty Himalayan peaks and on the banks of the swiftly flowing Bhagirathi. The spotlessly clean complex houses several other temples around it and inside it sits a beautiful idol of Goddess Ganga. Most devotees take a dip in the Bhagirathi before walking up to the temple to offer prayers. The Char Dham Yatra starts from the west and ends in the east, beginning at Yamunotri Dham, and Gangotri Dham is the second stop on the circuit.</string>
 
+    //Travel kedarnath
+    <string name="kvia_flight">Jolly Grant is the nearest airport to Kedarnath situated at a distance of 238 kilometers. Jolly Grant Airport is well connected to Delhi with daily flights. Gaurikund is well connected by motorable roads with Jolly Grant Airport. Taxis are easily available from Jolly Grant Airport to Gaurikund.</string>
+    <string name="kvia_train">The nearest railway station to Kedarnath is Rishikesh. Rishikesh railway station is situated 216 kilometers before Kedarnath on NH58. Rishikesh is well connected by railway networks with major destinations of India. Trains to Rishikesh are frequent. Gaurikund is well connected by motorable roads with Rishikesh. Taxis and buses are easily available from Rishikesh to Gaurikund.</string>
+    <string name="kvia_bus">Gaurikund is the point where the road to Kedarnath ends and an easy trek of 14km begins. Gaurikund is well connected by motorable roads with major destinations of Uttarakhand and northern states of India. Buses to Rishikesh and Srinagar are available from ISBT Kashmiri Gate in Delhi. Buses and Taxis to Gaurikund are easily available from major destinations of Uttarakhand like Dehradun, Rishikesh, Haridwar, Pauri, Tehri, Uttarkashi, Srinagar, Chamoli, etc. Gaurikund lies on National Highway 109 which connects Rudraprayag with Kedarnath.</string>
+
+    //Travel badrinath
+    <string name="bvia_flight">Around 317 km away is the Jolly Grant Airport near Dehradun. Flights from several major Indian cities land here.</string>
+    <string name="bvia_train">The Rishikesh Railway Station is 297 km away while Kotdwar Railway Station is at a distance of 327km.</string>
+    <string name="bvia_bus">The major cities of north India are well-connected to Badrinath. One can use buses that ply regularly from Delhi, Haridwar, and Rishikesh to Badrinath.</string>
+
+
+    //Travel gangotri
+    <string name="gvia_flight">Jolly Grant Airport is the nearest airport to Gangotri, around 250 km away. Jolly Grant Airport is well connected to Delhi with daily flights.</string>
+    <string name="gvia_train">The nearest railway station from Gangotri is Rishikesh, around 230 km away.</string>
+    <string name="gvia_bus">Gangotri is well-connected by motorable roads with all major destinations of Uttarakhand. Buses and taxis to Gangotri are easily available from all around Uttarakhand.</string>
+
+    //Travel yamuntri
+    <string name="yvia_flight">Jolly Grant Airport is the nearest airport to Gangotri. You need to hire a cab or get a bus from there.</string>
+    <string name="yvia_train">Regular trains to Haridwar and Dehradun are available at all times across the year. Hire a cab or get a bus from here.</string>
+    <string name="yvia_bus">Motorable roads end at Janki Chatti. You need to trek about 5-6 km to reach Yamunotri. One can take ponies or palanquins to save oneself the hardships of the journey.</string>
 </resources>

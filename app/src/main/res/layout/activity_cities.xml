@@ -74,6 +74,17 @@
                     android:fontFamily="@font/poppins_regular"
                     android:text="Text from the database...." />
 
+                <TextView
+                    style="@style/TetxtsizeforForm1"
+                    android:id="@+id/info22"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:fontFamily="@font/poppins_regular"
+                    android:text="Text from the database...." />
+
             </LinearLayout>
 
             <LinearLayout

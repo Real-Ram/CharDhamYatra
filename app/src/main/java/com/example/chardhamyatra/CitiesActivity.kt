@@ -65,12 +65,15 @@ class CitiesActivity : AppCompatActivity() {
         ref.addValueEventListener(object: ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
 
-                val info = "${snapshot.child("Info").value}"
+                val info1 = "${snapshot.child("Info1").value}"
+                val info2 = "${snapshot.child("Info2").value}"
 
-                binding.info12.text = info
+                binding.info12.text = info1
+                binding.info22.text = info2
             }
             override fun onCancelled(error: DatabaseError) {
             }
         })
     }
+
 }

@@ -1,8 +1,10 @@
 package com.example.chardhamyatra
 
+import android.R
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
+import androidx.appcompat.app.AppCompatActivity
 import com.example.chardhamyatra.databinding.ActivityKedarnathBinding
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.DataSnapshot
@@ -10,11 +12,14 @@ import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
 
+
+
 class KedarnathActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityKedarnathBinding
 
     private lateinit var firebaseAuth: FirebaseAuth
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -26,6 +31,10 @@ class KedarnathActivity : AppCompatActivity() {
 
         binding.attract12.setOnClickListener {
             startActivity(Intent(this, KDAttractActivity::class.java))
+        }
+
+        binding.travel12.setOnClickListener {
+            startActivity(Intent(this, KdTravelActivity::class.java))
         }
     }
 

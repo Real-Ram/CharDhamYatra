@@ -5,11 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#f40b5a"
-    tools:context=".BadrinathActivity">
+    tools:context=".YmTravelActivity">
 
     <LinearLayout
-        android:layout_width="match_parent"
         android:id="@+id/ll1"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
@@ -26,7 +26,7 @@
                 android:layout_marginLeft="22dp"
                 android:fontFamily="@font/poppins_semibold"
                 android:gravity="center_horizontal"
-                android:text="Badrinath"
+                android:text="Travel Methods"
                 android:textAllCaps="true"
                 android:textColor="@color/white" />
 
@@ -61,196 +61,152 @@
 
         <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent" >
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
                 android:orientation="vertical"
+                android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp">
 
-                <ImageView
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="250dp"
-                    android:adjustViewBounds="true"
-                    android:scaleType="fitCenter"
+                    android:layout_height="wrap_content"
                     android:layout_marginBottom="10dp"
-                    android:background="@drawable/badrinath" />
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
                     android:background="@drawable/rectangle"
                     android:orientation="vertical">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginLeft="6dp"
                         android:layout_marginTop="20.3dp"
-                        android:fontFamily="@font/poppins_semibold"
-                        android:gravity="center_horizontal"
-                        android:text="What to know"
-                        android:textAllCaps="true"
-                        android:layout_marginLeft="6dp"
                         android:layout_marginRight="6dp"
-                        android:textColor="@color/black"
-                        android:textSize="16.7sp" />
-
-                    <TextView
-                        style="@style/TetxtsizeforForm1"
-                        android:id="@+id/info12"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_marginTop="4dp"
-                        android:layout_marginLeft="6dp"
-                        android:layout_marginRight="6dp"
-                        android:fontFamily="@font/poppins_regular"
-                        android:text="Text from the database...." />
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/rectangle"
-                    android:layout_marginTop="20dp"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="20.3dp"
-                        android:fontFamily="@font/poppins_semibold"
-                        android:gravity="center_horizontal"
-                        android:text="Popular Routes"
-                        android:textAllCaps="true"
-                        android:layout_marginLeft="6dp"
-                        android:layout_marginRight="6dp"
-                        android:textColor="@color/black"
-                        android:textSize="16.7sp" />
-
-                    <TextView
-                        style="@style/TetxtsizeforForm1"
-                        android:id="@+id/routes12"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_marginTop="4dp"
-                        android:layout_marginLeft="6dp"
-                        android:layout_marginRight="6dp"
-                        android:fontFamily="@font/poppins_regular"
-                        android:text="Text from the database...." />
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/rectangle"
-                    android:layout_marginTop="20dp"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="20.3dp"
-                        android:fontFamily="@font/poppins_semibold"
-                        android:gravity="center_horizontal"
-                        android:text="Best Time to Visit"
-                        android:textAllCaps="true"
-                        android:layout_marginLeft="6dp"
-                        android:layout_marginRight="6dp"
-                        android:textColor="@color/black"
-                        android:textSize="16.7sp" />
-
-                    <TextView
-                        style="@style/TetxtsizeforForm1"
-                        android:id="@+id/besttime12"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_marginTop="4dp"
-                        android:layout_marginLeft="6dp"
-                        android:layout_marginRight="6dp"
-                        android:fontFamily="@font/poppins_regular"
-                        android:text="Text from the database...." />
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/rectangle"
-                    android:layout_marginTop="20dp"
-                    android:id="@+id/attract12"
-                    android:backgroundTint="#fcc757"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="20.3dp"
                         android:fontFamily="@font/poppins_semibold"
                         android:layout_gravity="center"
-                        android:text="Attractions"
+                        android:text="By Flight"
                         android:textAllCaps="true"
-                        android:layout_marginLeft="6dp"
-                        android:layout_marginRight="6dp"
                         android:textColor="@color/black"
                         android:textSize="16.7sp" />
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/id1"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_below="@+id/id1"
+                        android:layout_centerInParent="true"
+                        android:adjustViewBounds="true"
+                        android:layout_gravity="center"
+                        android:scaleType="centerCrop"
+                        app:lottie_autoPlay="true"
+                        app:lottie_fileName="flight-travel.json"
+                        app:lottie_loop="true" />
 
                     <TextView
                         style="@style/TetxtsizeforForm1"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:layout_marginTop="4dp"
                         android:layout_marginLeft="6dp"
+                        android:layout_marginTop="10dp"
                         android:layout_marginRight="6dp"
-                        android:gravity="center"
                         android:fontFamily="@font/poppins_regular"
-                        android:text="Click here to go attractions page >>" />
+                        android:text="@string/yvia_flight" />
 
                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
                     android:background="@drawable/rectangle"
-                    android:layout_marginTop="20dp"
-                    android:id="@+id/travel12"
-                    android:backgroundTint="#fcc757"
-                    android:layout_marginBottom="20dp"
                     android:orientation="vertical">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="20.3dp"
-                        android:fontFamily="@font/poppins_semibold"
-                        android:gravity="center_horizontal"
-                        android:text="Travel Methods"
-                        android:textAllCaps="true"
-                        android:layout_gravity="center"
                         android:layout_marginLeft="6dp"
+                        android:layout_marginTop="20.3dp"
                         android:layout_marginRight="6dp"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:layout_gravity="center"
+                        android:text="By Train"
+                        android:textAllCaps="true"
                         android:textColor="@color/black"
                         android:textSize="16.7sp" />
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/id2"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_below="@+id/id1"
+                        android:layout_centerInParent="true"
+                        android:adjustViewBounds="true"
+                        android:layout_gravity="center"
+                        android:scaleType="centerCrop"
+                        app:lottie_autoPlay="true"
+                        app:lottie_fileName="train-travel.json"
+                        app:lottie_loop="true" />
 
                     <TextView
                         style="@style/TetxtsizeforForm1"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:layout_marginTop="4dp"
-                        android:gravity="center"
                         android:layout_marginLeft="6dp"
+                        android:layout_marginTop="10dp"
                         android:layout_marginRight="6dp"
                         android:fontFamily="@font/poppins_regular"
-                        android:text="Click here to go attractions page >>" />
+                        android:text="@string/yvia_train" />
 
                 </LinearLayout>
 
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/rectangle"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginTop="20.3dp"
+                        android:layout_marginRight="6dp"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:layout_gravity="center"
+                        android:text="By Road"
+                        android:textAllCaps="true"
+                        android:textColor="@color/black"
+                        android:textSize="16.7sp" />
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/id3"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_below="@+id/id1"
+                        android:layout_centerInParent="true"
+                        android:adjustViewBounds="true"
+                        android:layout_gravity="center"
+                        android:scaleType="centerCrop"
+                        app:lottie_autoPlay="true"
+                        app:lottie_fileName="bus-travel.json"
+                        app:lottie_loop="true" />
+
+                    <TextView
+                        style="@style/TetxtsizeforForm1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="6dp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="@string/yvia_bus" />
+
+                </LinearLayout>
 
             </LinearLayout>
-
         </ScrollView>
+
     </LinearLayout>
 </RelativeLayout>

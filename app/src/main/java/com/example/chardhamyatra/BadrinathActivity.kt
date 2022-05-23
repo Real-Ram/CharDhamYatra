@@ -26,6 +26,10 @@ class BadrinathActivity : AppCompatActivity() {
         binding.attract12.setOnClickListener {
             startActivity(Intent(this, BDAttractActivity::class.java))
         }
+
+        binding.travel12.setOnClickListener {
+            startActivity(Intent(this, BdTravelActivity::class.java))
+        }
     }
 
     private fun loadTheData() {
