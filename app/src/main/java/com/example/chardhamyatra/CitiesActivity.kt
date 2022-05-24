@@ -40,7 +40,9 @@ class CitiesActivity : AppCompatActivity() {
         binding.city4.setOnClickListener {
             startActivity(Intent(this, GangotriActivity::class.java))
         }
-
+        binding.about.setOnClickListener {
+            startActivity(Intent(this, AboutUsActivity::class.java))
+        }
         binding.logoutBtn.setOnClickListener {
 
             val builder = AlertDialog.Builder(this)

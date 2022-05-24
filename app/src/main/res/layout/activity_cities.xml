@@ -42,45 +42,45 @@
             android:layout_height="wrap_content">
 
             <LinearLayout
+                android:id="@+id/ll12"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/rectangle"
+                android:layout_marginLeft="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginRight="10dp"
-                android:layout_marginLeft="10dp"
-                android:id="@+id/ll12"
+                android:background="@drawable/rectangle"
                 android:orientation="vertical">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
                     android:layout_marginTop="10dp"
+                    android:layout_marginRight="6dp"
                     android:fontFamily="@font/poppins_semibold"
                     android:gravity="center_horizontal"
                     android:text="Chardham"
-                    android:layout_marginLeft="6dp"
-                    android:layout_marginRight="6dp"
                     android:textColor="@color/black"
                     android:textSize="16.7sp" />
 
                 <TextView
-                    style="@style/TetxtsizeforForm1"
                     android:id="@+id/info12"
+                    style="@style/TetxtsizeforForm1"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_marginTop="4dp"
                     android:layout_marginLeft="6dp"
+                    android:layout_marginTop="4dp"
                     android:layout_marginRight="6dp"
                     android:fontFamily="@font/poppins_regular"
                     android:text="Text from the database...." />
 
                 <TextView
-                    style="@style/TetxtsizeforForm1"
                     android:id="@+id/info22"
+                    style="@style/TetxtsizeforForm1"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_marginTop="8dp"
                     android:layout_marginLeft="6dp"
+                    android:layout_marginTop="8dp"
                     android:layout_marginRight="6dp"
                     android:fontFamily="@font/poppins_regular"
                     android:text="Text from the database...." />
@@ -161,6 +161,32 @@
                     android:layout_marginLeft="20dp"
                     android:text="Gangotri"
                     android:layout_weight="1"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/ll4"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_centerHorizontal="true"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/about"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/rectangle"
+                    android:backgroundTint="#fcc757"
+                    android:fontFamily="@font/poppins_medium"
+                    android:gravity="center"
+                    android:text="About Us"
                     android:textColor="@color/black"
                     android:textSize="20sp"
                     android:textStyle="bold" />
