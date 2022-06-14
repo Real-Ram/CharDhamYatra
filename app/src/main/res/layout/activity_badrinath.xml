@@ -218,7 +218,6 @@
                     android:layout_marginTop="20dp"
                     android:id="@+id/travel12"
                     android:backgroundTint="#fcc757"
-                    android:layout_marginBottom="20dp"
                     android:orientation="vertical">
 
                     <TextView
@@ -248,6 +247,42 @@
 
                 </LinearLayout>
 
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rectangle"
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/map12"
+                    android:backgroundTint="#fcc757"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20.3dp"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:gravity="center_horizontal"
+                        android:text="Badrinath Map"
+                        android:textAllCaps="true"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginRight="6dp"
+                        android:textColor="@color/black"
+                        android:textSize="16.7sp" />
+
+                    <TextView
+                        style="@style/TetxtsizeforForm1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="4dp"
+                        android:gravity="center"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginRight="6dp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="Click here to go map page >>" />
+
+                </LinearLayout>
 
             </LinearLayout>
 

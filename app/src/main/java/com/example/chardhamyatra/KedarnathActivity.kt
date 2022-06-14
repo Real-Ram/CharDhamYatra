@@ -36,6 +36,10 @@ class KedarnathActivity : AppCompatActivity() {
         binding.travel12.setOnClickListener {
             startActivity(Intent(this, KdTravelActivity::class.java))
         }
+
+        binding.map12.setOnClickListener {
+            startActivity(Intent(this,KedarnathMap::class.java))
+        }
     }
 
     private fun loadTheData() {

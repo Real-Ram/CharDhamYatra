@@ -30,6 +30,10 @@ class YamunotriActivity : AppCompatActivity() {
         binding.travel12.setOnClickListener {
             startActivity(Intent(this, YmTravelActivity::class.java))
         }
+
+        binding.map12.setOnClickListener {
+            startActivity(Intent(this,YamunotriMap::class.java))
+        }
     }
 
     private fun loadTheData() {

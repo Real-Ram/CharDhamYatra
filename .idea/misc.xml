@@ -23,21 +23,27 @@
         <entry key="app/src/main/res/drawable/shape_button01.xml" value="0.1795" />
         <entry key="app/src/main/res/drawable/shape_button02.xml" value="0.1795" />
         <entry key="app/src/main/res/drawable/small_circle.xml" value="0.1975" />
+        <entry key="app/src/main/res/layout/activity_about_us.xml" value="0.3098958333333333" />
         <entry key="app/src/main/res/layout/activity_badrinath.xml" value="0.29583333333333334" />
+        <entry key="app/src/main/res/layout/activity_badrinath_map.xml" value="0.29583333333333334" />
         <entry key="app/src/main/res/layout/activity_bd_travel.xml" value="0.2543822146216332" />
         <entry key="app/src/main/res/layout/activity_cities.xml" value="0.2953125" />
         <entry key="app/src/main/res/layout/activity_forget_password.xml" value="0.2953125" />
         <entry key="app/src/main/res/layout/activity_gangotri.xml" value="0.29583333333333334" />
+        <entry key="app/src/main/res/layout/activity_gangotri_map.xml" value="0.3098958333333333" />
         <entry key="app/src/main/res/layout/activity_gg_travel.xml" value="0.2543822146216332" />
         <entry key="app/src/main/res/layout/activity_kd_travel.xml" value="0.2543822146216332" />
         <entry key="app/src/main/res/layout/activity_kdattract.xml" value="0.2118191527233891" />
         <entry key="app/src/main/res/layout/activity_kedarnath.xml" value="0.29583333333333334" />
+        <entry key="app/src/main/res/layout/activity_kedarnath_map.xml" value="0.3098958333333333" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.2953125" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.29583333333333334" />
         <entry key="app/src/main/res/layout/activity_register.xml" value="0.2953125" />
         <entry key="app/src/main/res/layout/activity_splash.xml" value="0.2953125" />
         <entry key="app/src/main/res/layout/activity_yamunotri.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_yamunotri_map.xml" value="0.3098958333333333" />
         <entry key="app/src/main/res/layout/activity_ym_travel.xml" value="0.2543822146216332" />
+        <entry key="app/src/main/res/layout/fragment_maps.xml" value="0.3098958333333333" />
       </map>
     </option>
   </component>

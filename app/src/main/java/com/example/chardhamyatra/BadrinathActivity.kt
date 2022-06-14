@@ -30,6 +30,10 @@ class BadrinathActivity : AppCompatActivity() {
         binding.travel12.setOnClickListener {
             startActivity(Intent(this, BdTravelActivity::class.java))
         }
+
+        binding.map12.setOnClickListener {
+            startActivity(Intent(this,BadrinathMap::class.java))
+        }
     }
 
     private fun loadTheData() {
