@@ -26,7 +26,7 @@
                 android:layout_marginLeft="22dp"
                 android:fontFamily="@font/poppins_semibold"
                 android:gravity="center_horizontal"
-                android:text="Kedarnath Map"
+                android:text="Yamunotri Map"
                 android:textAllCaps="true"
                 android:textColor="@color/white" />
 
