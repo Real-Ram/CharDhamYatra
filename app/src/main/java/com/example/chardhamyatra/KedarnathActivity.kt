@@ -40,6 +40,14 @@ class KedarnathActivity : AppCompatActivity() {
         binding.map12.setOnClickListener {
             startActivity(Intent(this,KedarnathMap::class.java))
         }
+
+        binding.tour12.setOnClickListener {
+            startActivity(Intent(this,WebKdActivity::class.java))
+        }
+
+        binding.weather12.setOnClickListener {
+            startActivity(Intent(this,WeatherKdActivity::class.java))
+        }
     }
 
     private fun loadTheData() {

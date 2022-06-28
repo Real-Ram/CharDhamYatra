@@ -34,6 +34,14 @@ class BadrinathActivity : AppCompatActivity() {
         binding.map12.setOnClickListener {
             startActivity(Intent(this,BadrinathMap::class.java))
         }
+
+        binding.tour12.setOnClickListener {
+            startActivity(Intent(this,WebBdActivity::class.java))
+        }
+
+        binding.weather12.setOnClickListener {
+            startActivity(Intent(this,WeatherBdActivity::class.java))
+        }
     }
 
     private fun loadTheData() {

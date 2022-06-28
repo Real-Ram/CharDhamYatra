@@ -35,6 +35,14 @@ class GangotriActivity : AppCompatActivity() {
         binding.map12.setOnClickListener {
             startActivity(Intent(this,GangotriMap::class.java))
         }
+
+        binding.tour12.setOnClickListener {
+            startActivity(Intent(this,WebGgActivity::class.java))
+        }
+
+        binding.weather12.setOnClickListener {
+            startActivity(Intent(this,WeatherGgActivity::class.java))
+        }
     }
 
     private fun loadTheData() {

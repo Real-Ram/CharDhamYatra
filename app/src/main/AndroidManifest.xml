@@ -16,6 +16,30 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
         <activity
+            android:name=".WeatherYmActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WeatherGgActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WeatherBdActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WeatherKdActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WebYmActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WebGgActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WebBdActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WebKdActivity"
+            android:exported="false" />
+        <activity
             android:name=".GangotriMap"
             android:exported="false" />
         <activity

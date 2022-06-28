@@ -34,6 +34,14 @@ class YamunotriActivity : AppCompatActivity() {
         binding.map12.setOnClickListener {
             startActivity(Intent(this,YamunotriMap::class.java))
         }
+
+        binding.tour12.setOnClickListener {
+            startActivity(Intent(this,WebYmActivity::class.java))
+        }
+
+        binding.weather12.setOnClickListener {
+            startActivity(Intent(this,WeatherYmActivity::class.java))
+        }
     }
 
     private fun loadTheData() {
